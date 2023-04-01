@@ -5,7 +5,10 @@
     background-color: #aab33c;
     font-weight: 700;
   }
-
+.deal{
+  background-color: #aab33c;
+  font-weight: 700;
+}
   .banner-image{
     background-image: url(/Assets/Images/banner.png);
     background-size: contain;
