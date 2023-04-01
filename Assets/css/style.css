@@ -1,16 +1,41 @@
  /* Page-1 Nav Bar CSS  */
 
-  /* Nav bar items HOME,PLANS,..... */
-  #navlink:hover {
-    background-color: #aab33c;
-    font-weight: 700;
-  }
-.deal{
-  background-color: #aab33c;
-  font-weight: 700;
+ /* Nav bar items HOME,PLANS,..... */
+ @font-face {
+   font-family: 'Quicksand';
+   src: url(/Assets/Fonts/Quicksand/static/Quicksand-Regular.ttf);
+ }
+
+ @font-face {
+   font-family: 'Ribbon';
+   src: url(/Assets/Fonts/Ribbon/Ribbon131BT-Regular.otf); 
+ }
+
+ #navlink:hover {
+   background-color: #aab33c;
+   font-weight: 700;
+ }
+
+ .deal {
+   background-color: #aab33c;
+   font-weight:700;
+   
+ }
+
+ .banner-image {
+   background-image: url(/Assets/Images/banner.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+ }
+.real{
+  font-family: 'Quicksand','sans-serif';
+  font-size: 35px;
+color: #ffffff;
+
 }
-  .banner-image{
-    background-image: url(/Assets/Images/banner.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
+ .best {
+   font-family: 'Ribbon','sans-serif';
+   font-size: 70px;
+   color: #aab33c;
+
+ }
