@@ -8,7 +8,7 @@
 
  @font-face {
    font-family: 'Ribbon';
-   src: url(/Assets/Fonts/Ribbon/Ribbon131BT-Regular.otf); 
+   src: url(/Assets/Fonts/Ribbon/Ribbon131BT-Regular.otf);
  }
 
  #navlink:hover {
@@ -18,24 +18,37 @@
 
  .deal {
    background-color: #aab33c;
-   font-weight:700;
-   
+   font-weight: 700;
+
  }
 
  .banner-image {
    background-image: url(/Assets/Images/banner.png);
    background-size: contain;
    background-repeat: no-repeat;
- }
-.real{
-  font-family: 'Quicksand','sans-serif';
-  font-size: 35px;
-color: #ffffff;
 
-}
+  
+ }
+
+ .real {
+   margin-inline-start: 30px;
+   font-family: 'Quicksand', 'sans-serif';
+   font-size: xx-large;
+   color: #ffffff;
+   margin-bottom: 100px;
+ }
+
  .best {
-   font-family: 'Ribbon','sans-serif';
+   margin-inline-start: 30px;
+   font-family: 'Ribbon', 'sans-serif';
    font-size: 70px;
    color: #aab33c;
 
+ }
+
+ .start {
+  margin-inline-start: 30px;
+   margin-bottom: px;
+background-color: #aab33c;
+font-family: 'Quicksand', 'sans-serif';
  }
