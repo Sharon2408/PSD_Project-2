@@ -1,6 +1,10 @@
  /* Page-1 Nav Bar CSS  */
 
  /* Nav bar items HOME,PLANS,..... */
+ body {
+   margin: 0% !important;
+ }
+
  @font-face {
    font-family: 'Quicksand';
    src: url(/Assets/Fonts/Quicksand/static/Quicksand-Regular.ttf);
@@ -27,17 +31,17 @@
  .banner-image {
    background-image: url(/Assets/Images/banner.png);
    background-size: contain;
-   background-repeat: no-repeat;
-
+   background-repeat: repeat;
+   height: 1000px;
+ 
 
  }
 
  .real {
    margin-inline-start: 140px;
    font-family: 'Quicksand', 'sans-serif';
-   font-size: xx-large;
    color: #ffffff;
-   
+
  }
 
  .best {
@@ -49,9 +53,8 @@
 
  }
 
- .start {
+  .start {
    margin-inline-start: 140px;
-   margin-bottom: 100px;
    background-color: #aab33c;
    font-family: 'Quicksand', 'sans-serif';
- }
+ } 
