@@ -3,6 +3,9 @@
  /* Nav bar items HOME,PLANS,..... */
  body {
    margin: 0% !important;
+   font-family:'Quicksand', 'sans-serif'; 
+   overflow-x: hidden;
+
  }
 
  @font-face {
@@ -14,6 +17,8 @@
    font-family: 'Ribbon';
    src: url(/Assets/Fonts/Ribbon/Ribbon131BT-Regular.otf);
  }
+
+
 
 
 
@@ -29,12 +34,10 @@
  }
 
  .banner-image {
-   background-image: url(/Assets/Images/banner.png);
+   /* background-image: url(/Assets/Images/banner.png);
    background-size: contain;
-   background-repeat: repeat;
-   height: 1000px;
- 
-
+   background-repeat: no-repeat; */
+  
  }
 
  .real {
@@ -58,3 +61,12 @@
    background-color: #aab33c;
    font-family: 'Quicksand', 'sans-serif';
  } 
+
+ .hero-bottom-text{
+  font-family: 'Quicksand', 'sans-serif';
+  font-weight: 700;
+ }
+
+ .text{
+  position: absolute;
+ }
