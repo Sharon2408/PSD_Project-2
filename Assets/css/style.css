@@ -2,16 +2,40 @@
 
  /* Nav bar items HOME,PLANS,..... */
  body {
+<<<<<<< HEAD
   margin: 0% !important;
   font-family:'Quicksand', 'sans-serif'; 
   overflow-x: hidden;
+=======
+   margin: 0% !important;
+   font-family:'Quicksand', 'sans-serif'; 
+   overflow-x: hidden;
+
+ }
+
+ @font-face {
+   font-family: 'Quicksand';
+   src: url(/Assets/Fonts/Quicksand/static/Quicksand-Regular.ttf);
+ }
+>>>>>>> b17e539b5f81ffde3bad3981f057aa9ac3f4fd3c
 
 }
 
+<<<<<<< HEAD
 @font-face {
   font-family: 'Quicksand';
   src: url(/Assets/Fonts/Quicksand/static/Quicksand-Regular.ttf);
 }
+=======
+
+
+
+
+ #navlink:hover {
+   background-color: #aab33c;
+   font-weight: 700;
+ }
+>>>>>>> b17e539b5f81ffde3bad3981f057aa9ac3f4fd3c
 
 @font-face {
   font-family: 'Ribbon';
@@ -19,6 +43,7 @@
 }
 
 
+<<<<<<< HEAD
 
 
 
@@ -26,6 +51,28 @@
   background-color: #aab33c;
   font-weight: 700;
 }
+=======
+ .banner-image {
+   /* background-image: url(/Assets/Images/banner.png);
+   background-size: contain;
+   background-repeat: no-repeat; */
+  
+ }
+
+ .real {
+   margin-inline-start: 140px;
+   font-family: 'Quicksand', 'sans-serif';
+   color: #ffffff;
+
+ }
+
+ .best {
+   margin-inline-start: 140px;
+   font-family: 'Ribbon', 'sans-serif';
+   color: #aab33c;
+   font-size: px;
+
+>>>>>>> b17e539b5f81ffde3bad3981f057aa9ac3f4fd3c
 
 .deal {
   background-color: #aab33c;
@@ -56,6 +103,7 @@
 
 }
 
+<<<<<<< HEAD
  .start {
   margin-inline-start: 140px;
   background-color: #aab33c;
@@ -70,3 +118,19 @@
 .text{
  /* position: absolute; */
 }
+=======
+  .start {
+   margin-inline-start: 140px;
+   background-color: #aab33c;
+   font-family: 'Quicksand', 'sans-serif';
+ } 
+
+ .hero-bottom-text{
+  font-family: 'Quicksand', 'sans-serif';
+  font-weight: 700;
+ }
+
+ .text{
+  position: absolute;
+ }
+>>>>>>> b17e539b5f81ffde3bad3981f057aa9ac3f4fd3c
