@@ -1,54 +1,72 @@
  /* Page-1 Nav Bar CSS  */
 
  /* Nav bar items HOME,PLANS,..... */
- @font-face {
-   font-family: 'Quicksand';
-   src: url(/Assets/Fonts/Quicksand/static/Quicksand-Regular.ttf);
- }
+ body {
+  margin: 0% !important;
+  font-family:'Quicksand', 'sans-serif'; 
+  overflow-x: hidden;
 
- @font-face {
-   font-family: 'Ribbon';
-   src: url(/Assets/Fonts/Ribbon/Ribbon131BT-Regular.otf);
- }
+}
 
- #navlink:hover {
-   background-color: #aab33c;
-   font-weight: 700;
- }
+@font-face {
+  font-family: 'Quicksand';
+  src: url(/Assets/Fonts/Quicksand/static/Quicksand-Regular.ttf);
+}
 
- .deal {
-   background-color: #aab33c;
-   font-weight: 700;
+@font-face {
+  font-family: 'Ribbon';
+  src: url(/Assets/Fonts/Ribbon/Ribbon131BT-Regular.otf);
+}
 
- }
 
- .banner-image {
-   background-image: url(/Assets/Images/banner.png);
-   background-size: contain;
-   background-repeat: no-repeat;
 
-  
- }
 
- .real {
-   margin-inline-start: 30px;
-   font-family: 'Quicksand', 'sans-serif';
-   font-size: xx-large;
-   color: #ffffff;
-   margin-bottom: 100px;
- }
 
- .best {
-   margin-inline-start: 30px;
-   font-family: 'Ribbon', 'sans-serif';
-   font-size: 70px;
-   color: #aab33c;
+#navlink:hover {
+  background-color: #aab33c;
+  font-weight: 700;
+}
 
- }
+.deal {
+  background-color: #aab33c;
+  font-weight: 700;
+
+}
+
+.banner-image {
+  /* background-image: url(/Assets/Images/banner.png);
+  background-size: contain;
+  background-repeat: no-repeat; */
+ 
+}
+
+.real {
+  margin-inline-start: 140px;
+  font-family: 'Quicksand', 'sans-serif';
+  color: #ffffff;
+
+}
+
+.best {
+  margin-inline-start: 140px;
+  font-family: 'Ribbon', 'sans-serif';
+  color: #aab33c;
+  font-size: px;
+
+
+}
 
  .start {
-  margin-inline-start: 30px;
-   margin-bottom: px;
-background-color: #aab33c;
-font-family: 'Quicksand', 'sans-serif';
- }
+  margin-inline-start: 140px;
+  background-color: #aab33c;
+  font-family: 'Quicksand', 'sans-serif';
+} 
+
+.hero-bottom-text{
+ font-family: 'Quicksand', 'sans-serif';
+ font-weight: 700;
+}
+
+.text{
+ /* position: absolute; */
+}
