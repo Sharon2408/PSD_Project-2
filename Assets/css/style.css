@@ -2,68 +2,38 @@
 
  /* Nav bar items HOME,PLANS,..... */
  body {
-<<<<<<< HEAD
-  margin: 0% !important;
-  font-family:'Quicksand', 'sans-serif'; 
-  overflow-x: hidden;
-=======
    margin: 0% !important;
-   font-family:'Quicksand', 'sans-serif'; 
+   font-family: 'Quicksand', 'sans-serif';
    overflow-x: hidden;
 
  }
-
- @font-face {
-   font-family: 'Quicksand';
-   src: url(/Assets/Fonts/Quicksand/static/Quicksand-Regular.ttf);
- }
->>>>>>> b17e539b5f81ffde3bad3981f057aa9ac3f4fd3c
-
-}
-
-<<<<<<< HEAD
-@font-face {
-  font-family: 'Quicksand';
-  src: url(/Assets/Fonts/Quicksand/static/Quicksand-Regular.ttf);
-}
-=======
-
-
-
 
  #navlink:hover {
    background-color: #aab33c;
    font-weight: 700;
  }
->>>>>>> b17e539b5f81ffde3bad3981f057aa9ac3f4fd3c
 
-@font-face {
-  font-family: 'Ribbon';
-  src: url(/Assets/Fonts/Ribbon/Ribbon131BT-Regular.otf);
-}
+ @font-face {
+   font-family: 'Quicksand';
+   src: url(/Assets/Fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
+ }
 
+ @font-face {
+   font-family: 'Ribbon';
+   src: url(/Assets/Fonts/Ribbon/Ribbon131BT-Regular.otf);
+ }
 
-<<<<<<< HEAD
+ .deal {
+   background-color: #aab33c;
+   font-weight: 700;
 
-
-
-#navlink:hover {
-  background-color: #aab33c;
-  font-weight: 700;
-}
-=======
- .banner-image {
-   /* background-image: url(/Assets/Images/banner.png);
-   background-size: contain;
-   background-repeat: no-repeat; */
-  
  }
 
  .real {
    margin-inline-start: 140px;
    font-family: 'Quicksand', 'sans-serif';
    color: #ffffff;
-
+   font-size: 35px;
  }
 
  .best {
@@ -72,65 +42,309 @@
    color: #aab33c;
    font-size: px;
 
->>>>>>> b17e539b5f81ffde3bad3981f057aa9ac3f4fd3c
 
-.deal {
-  background-color: #aab33c;
-  font-weight: 700;
+ }
 
-}
-
-.banner-image {
-  /* background-image: url(/Assets/Images/banner.png);
-  background-size: contain;
-  background-repeat: no-repeat; */
- 
-}
-
-.real {
-  margin-inline-start: 140px;
-  font-family: 'Quicksand', 'sans-serif';
-  color: #ffffff;
-
-}
-
-.best {
-  margin-inline-start: 140px;
-  font-family: 'Ribbon', 'sans-serif';
-  color: #aab33c;
-  font-size: px;
-
-
-}
-
-<<<<<<< HEAD
  .start {
-  margin-inline-start: 140px;
-  background-color: #aab33c;
-  font-family: 'Quicksand', 'sans-serif';
-} 
-
-.hero-bottom-text{
- font-family: 'Quicksand', 'sans-serif';
- font-weight: 700;
-}
-
-.text{
- /* position: absolute; */
-}
-=======
-  .start {
    margin-inline-start: 140px;
    background-color: #aab33c;
    font-family: 'Quicksand', 'sans-serif';
- } 
-
- .hero-bottom-text{
-  font-family: 'Quicksand', 'sans-serif';
-  font-weight: 700;
+   font-size: 18px;
  }
 
- .text{
-  position: absolute;
+ .hero-bottom-text {
+   font-family: 'Quicksand', 'sans-serif';
+   font-weight: 600;
+   font-size: 24px;
  }
->>>>>>> b17e539b5f81ffde3bad3981f057aa9ac3f4fd3c
+
+ .text {
+   position: absolute;
+ }
+
+ #c4 {
+   width: 260px;
+   height: 250px;
+   border-radius: 10px;
+   background-color: #f1f4db;
+ }
+
+ #c4:hover {
+   transform: scale(1.1);
+ }
+
+ .img-center {
+   filter: drop-shadow(3.83px 3.214px 7.5px rgba(136, 133, 38, 0.3));
+
+ }
+
+ #page3para,
+ #page4para {
+   font-family: "Quicksand";
+   font-weight: 600;
+   color: #565656;
+   font-size: 15px;
+ }
+
+ #innerrowcontent {
+   font-family: "Quicksand";
+   color: #404142;
+   font-weight: 900;
+   font-size: large;
+   text-transform: uppercase;
+ }
+
+ #innerrowimg {
+   background-color: #cdd49c;
+   border-radius: 5px;
+ }
+
+ #innerrowimg:hover {
+   transform: scale(1.1);
+ }
+
+ #bgcontainer {
+   background-color: #f3f4e8;
+ }
+
+ #zoom {
+   color: #404142;
+   font-weight: bolder;
+   font-size: xx-large;
+   font-family: "Quicksand";
+ }
+
+ #page4content {
+   color: #565656;
+   font-weight: 700;
+   font-family: "Quicksand";
+ }
+
+ .table {
+   width: 75%;
+   border-style: hidden;
+ }
+
+ .table th {
+   background-color: #a9b33b;
+ }
+
+ tr:nth-child(odd) {
+   background-color: #ffffff;
+ }
+
+ tr:nth-child(even) {
+   background-color: #eceed1;
+ }
+
+ #tablepara {
+   font-size: 8px;
+   font-family: "Quicksand";
+ }
+
+ #plan {
+   width: 70%;
+   font-family: "Quicksand";
+   font-size: 40px;
+   background-color: #aab33c;
+ }
+
+ #full {
+   width: 15%;
+   font-family: "Quicksand";
+   background-color: #aab33c;
+ }
+
+ #light {
+   width: 18%;
+   font-family: "Quicksand";
+   background-color: #aab33c;
+ }
+
+ .table thead th:first-child {
+   border-top-left-radius: 10px;
+ }
+
+ .table thead th:last-child {
+   border-top-right-radius: 10px;
+ }
+
+ #tablecontent {
+   font-size: 10px;
+   color: #0a0a0a;
+   font-weight: 500;
+   white-space: pre-line;
+ }
+
+ td:last-child {
+   box-shadow: 0 0.2rem 0.2em rgba(0, 0, 0, 0.4);
+ }
+
+ th:last-child {
+   box-shadow: 0 0.2rem 0.2em rgba(0, 0, 0, 0.4);
+ }
+
+ th:nth-child(2) {
+   box-shadow: 0 0.2rem 0.2em rgba(0, 0, 0, 0.4);
+ }
+
+ td:nth-child(2) {
+   box-shadow: 0 0.2rem 0.2em rgba(0, 0, 0, 0.4);
+ }
+
+ th:nth-child(1) {
+   box-shadow: 0 0.2rem 0.2em rgba(0, 0, 0, 0.4);
+ }
+
+ td:nth-child(1) {
+   box-shadow: 0 0.2rem 0.2em rgba(0, 0, 0, 0.4);
+ }
+
+ #price {
+   font-size: 25px;
+   color: #aab33b;
+   font-weight: 700;
+   font-family: "Quicksand";
+   border-bottom-left-radius: 14px;
+ }
+
+ .bottom {
+   box-shadow: 0px 15px 10px -1px rgba(0, 0, 0, 0.4)11;
+ }
+
+ #lastrow {
+   font-size: 14px;
+   color: #404142;
+   font-weight: 700;
+   font-family: "Quicksand";
+   white-space: pre-line;
+ }
+
+ .month {
+   text-align: right;
+   float: right;
+ }
+
+ #lastdata {
+   font-size: 14px;
+   line-height: 30px;
+   color: #404142;
+   font-weight: 700;
+   font-family: "Quicksand";
+   border-bottom-right-radius: 14px;
+ }
+
+ #bg2 {
+   width: 100vw;
+ }
+
+ .centered {
+   font-size: 150%;
+   line-height: 46px;
+   color: #404142;
+   font-weight: bolder;
+   font-family: "Quicksand";
+   text-align: center;
+   margin-top: -7%;
+   text-decoration: none;
+ }
+
+ #click {
+   font-size: 150%;
+   font-weight: 900;
+   color: black;
+   text-decoration: none;
+   font-family: "Quicksand";
+ }
+
+ #click:hover {
+   color: #5f6517;
+ }
+
+ /*css for footer in page 7*/
+ .footer-bg {
+   background-image: url(/Assets/Images/footer.svg);
+   background-size: contain;
+ }
+
+ .font-2 {
+   width: 260px;
+   height: 130px;
+   font-size: 14px;
+   line-height: 22px;
+   color: #404142;
+   font-weight: 400;
+   font-family: "Quicksand";
+ }
+
+ .font-3 {
+   font-size: 70%;
+   color: #404142;
+   font-family: "Quicksand";
+ }
+
+ .font-4,
+ .font-5 {
+   font-size: 70%;
+   color: #404142;
+   font-weight: 500;
+   font-family: "Quicksand";
+ }
+
+ .font-bg-4,
+ .font-bg-5 {
+   color: black;
+   text-decoration: none;
+ }
+
+ .font-bg-4:hover,
+ .font-bg-5:hover {
+   color: #848d00;
+ }
+
+ .but-footer {
+   color: #ffffff;
+   background-color: #acb643;
+   font-size: small;
+   border: none;
+ }
+
+ .but-footer:hover {
+   background-color: #8b9429;
+ }
+
+ #fav {
+   color: #a8b336;
+ }
+
+ #fav-2 {
+   color: white;
+ }
+
+ .form-control {
+   border: none;
+   outline: 0px;
+ }
+
+ #addon-wrapping {
+   background-color: #acb643;
+ }
+
+ .Copyright {
+   background-color: #aab33c;
+   text-decoration: none;
+   font-size: 13px;
+   letter-spacing: 6px;
+   font-weight: 500;
+ }
+
+ .bg-img {
+   background-image: url(/Assets/Images/Rectangle\ 32\ copy\ \(1\).svg);
+ }
+
+ .bg-img-text {
+   font-size: 25px;
+   font-weight: 700;
+   font-family: "Quicksand";
+   text-align: center;
+ }
