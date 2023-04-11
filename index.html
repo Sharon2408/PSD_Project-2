@@ -11,34 +11,38 @@
   <script src="Assets/js/bootstrap.bundle.min.js"></script>
   <script src="Assets/js/bootstrap.min.js"></script>
   <script src="https://kit.fontawesome.com/d509f79d02.js" crossorigin="anonymous"></script>
+  <script src="/Assets/js/index.js"></script>
+  <script src="https://cdn.jsdelivr.net/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
 </head>
 
 <body>
   <!-- PAGE-1 -->
   <!-- Background image -->
-  <div class="">
+  <div class="container-">
     <div id="row1" class="row justify-content-sm-md-lg-start ">
       <!-- <div class="banner-image  vw-100  d-flex justify-content-center align-items-center"> -->
-      <img src="Assets/Images/banner.png" class="banner-text img-fluid " alt="" srcset="">
+      <img src="Assets/Images/banner.png" class="banner-text img-fluid " alt="Background Image" srcset="">
       <!-- Background image text -->
       <div class="col-sm-6 col-12 mt-3 col text text-start  ">
-        <ul class="list-unstyled text">
-          <li class="best text-start text-lg-start display-3 ">The Best</li>
+        <ul id="best" class="list-unstyled text">
+          <li class="best text-start text-start display-3 ">The Best</li>
           <li class="real text-left"> REAL ESTATE ANALYSIS </li>
           <li class="real text-left "> SOFTWARE IN NORTH AMERICA</li>
-          <button class="start text-white border-0 ps-2 pe-2 pt-1 pb-1">START NOW</button>
+          <button id="start" class="start text-white border-0 ps-2 pe-2 pt-1 pb-1">START NOW</button>
       </div>
       <div class="col-sm-6">
       </div>
       <!-- Navbar Page-1 -->
 
-      <nav class="navbar  fixed-top navbar-expand-lg navbar-light bg  ">
+      <nav class="navbar  fixed-top navbar-expand-lg navbar-light bg navbar-fixed-top" id="toggle-to">
         <div class="container-fluid">
           <!-- logo -->
           <a class="navbar-brand col-2 bg " href="#"><img src="Assets/Images/logo.svg" height="40px" width="150px"
               alt="" sizes="" srcset=""></a>
           <!-- toggle button on navbar -->
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          <button class="navbar-toggler"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navbar">
             <span class="navbar-toggler-icon bg-light"></span>
           </button>
@@ -50,11 +54,11 @@
               </li>
               <!-- PLANS -->
               <li class="nav-item">
-                <a id="navlink" class=" text-white nav-link " href="#">PLANS</a>
+                <a id="navlink" class=" text-white nav-link " href="#table">PLANS</a>
               </li>
               <!-- LEARN MORE -->
               <li class="nav-item">
-                <a id="navlink" class="text-white nav-link  " href="#">LEARN MORE</a>
+                <a id="navlink" class="text-white nav-link  " href="#learnmore">LEARN MORE</a>
               </li>
               <!-- WIDGET -->
               <li class="nav-item">
@@ -74,7 +78,7 @@
               </li>
               <!-- GET THE DEAL -->
               <li class="nav-item">
-                <a id="navlink" class="  text-white nav-link deal  " href="#">GET THE DEAL</a>
+                <a id="navlink" class="  text-white nav-link deal  " href="#deal">GET THE DEAL</a>
               </li>
             </ul>
           </div>
@@ -101,27 +105,27 @@
   <div class="container">
     <div class="row gx-5 justify-content-around">
 
-      <div class="col-lg-3 col-md-6 .col-  justify-content  " id="c4">
+      <div class="col-lg-3 col-md-6 .col-  justify-content mb-5 " id="c4">
         <div class="card-body">
           <a href="">
-            <img src="Assets/Images/1stcard.svg" class="img-center  ps-4 pt-5 " alt="" srcset=""></a>
+            <img src="Assets/Images/1stcard.svg" class="img-center  ps-4 pt-5 " alt="computer image" srcset=""></a>
           <h5 class="card-text text-center">User-friendly interface</h5>
 
         </div>
       </div>
 
-      <div class="col-lg-3 col-md-6 " id="c4">
+      <div class="col-lg-3 col-md-6 mb-5" id="c4">
         <div class="card-body">
           <a href="">
-            <img src="Assets/Images/2ndcard.svg" class="img-center ps-5 pt-5" alt="" srcset=""></a>
+            <img src="Assets/Images/2ndcard.svg" class="img-center ps-5 pt-5" alt="graph image" srcset=""></a>
           <h5 class="card-text text-center">Automatic-analysis revision</h5>
         </div>
       </div>
 
-      <div class="col-lg-3 col-md-6" id="c4">
+      <div class="col-lg-3 col-md-6 mb-5" id="c4">
         <div class="card-body">
           <a href="">
-            <img src="Assets/Images/3rdcard.svg" class="img-center ps-5 pt-5" alt="" srcset=""></a>
+            <img src="Assets/Images/3rdcard.svg" class="img-center ps-5 pt-5" alt="binary image" srcset=""></a>
           <h5 class="card-text text-center">Step-by-Step<br>data gathering</h5>
 
         </div>
@@ -130,7 +134,7 @@
       <div class="col-lg-3 col-md-6" id="c4">
         <div class="card-body">
           <a href="">
-            <img src="Assets/Images/4th card.svg" class="img-center  ps-5 pt-5 " alt="" srcset=""></a>
+            <img src="Assets/Images/4th card.svg" class="img-center  ps-5 pt-5 " alt="form image" srcset=""></a>
           <h5 class="card-text text-center">Sell price evaluation feature</h5>
         </div>
       </div>
@@ -160,54 +164,54 @@
         </p>
         <div class="row" id="innerrow">
           <div class=" col-6 col-sm-6 col-md-6"><a href="" class="text-decoration-none"><img
-                src="Assets/Images/page3icon.svg" class="img-fluid p-2" id="innerrowimg">
+                src="Assets/Images/page3icon.svg" alt="building icon" class="img-fluid p-2" id="innerrowimg">
               <h6 id="innerrowcontent"> Unlimited apartment <br> quantities </h6>
 
             </a>
           </div>
           <div class=" col-6 col-sm-6 col-md-6"> <a href="" class="text-decoration-none"><img
-                src="Assets/Images/page3icon2.svg" class="img-fluid p-2" id="innerrowimg">
+                src="Assets/Images/page3icon2.svg" alt="home icon"  class="img-fluid p-2" id="innerrowimg">
               <h6 id="innerrowcontent">Commercial leases <br>specially adapted </h6>
             </a>
           </div>
         </div>
       </div>
-      <div class="parent col-md-6">
-        <img src="Assets/Images/newiphone.svg" alt="" class="container" height="600px" srcset="">
+      <div id="iphone" class="parent col-md-6">
+        <img src="Assets/Images/iphone.svg" alt="iphone image" class="container" height="400px" width="200px" srcset="">
 
       </div>
     </div>
   </div>
 
   <!-- End of 2nd Page -->
-  
+
   <br><br>
-  
+
   <!--container fluid page 3 start-->
   <div class="container-fluid" id="bgcontainer">
     <div class="container-fluid">
       <div class="row ">
         <div class="col-8 col-sm-8  col-md-6 ms-5">
-          <img src="Assets/Images/laptop.svg" class="img-fluid p-4">
+          <img src="Assets/Images/laptop.png" alt="laptop image" class="img-fluid p-4">
         </div>
 
         <div class=" col-md-5 mt-3">
-          <h6 id="zoom">Zoom-imm is an essential</h6>
+          <h6 id="zoom">Zoom-imm is an essential </h6>
           <h6 id="zoom">tool for all Real Estate</h6>
           <h6 id="zoom">professionals!</h6>
-          <p id="page4para">Not only is iAnalyzeREI professional and dynamic, filled with pertinent information,
+          <p id="page4para" class="page4para">Not only is iAnalyzeREI professional and dynamic, filled with pertinent information,
             it also produces quality reports. The information displayed makes the report easy to
             read and understand, even for novices. Try it and see for yourself. Choose the complete
             report or the abbreviated version, according to your needs. You can even tell the
             software exactly what information to print so that the report has everything you
             want and nothing you don’t.</p>
 
-          <p id="page4para">If you want to add a personal touch, your picture and your logo can also be inserted in the
+          <p id="page4para"class="page4para">If you want to add a personal touch, your picture and your logo can also be inserted in the
             document.</p>
-          <h6 id="page4content">Complete report, colorful and legible</h6>
-          <h6 id="page4content">Available abbreviated version </h6>
-          <h6 id="page4content">Professional aspect </h6>
-          <h6 id="page4content">Personalize document for your client, friend or financial institution</h6>
+          <h6 id="page4content"class="page4para">Complete report, colorful and legible</h6>
+          <h6 id="page4content"class="page4para">Available abbreviated version </h6>
+          <h6 id="page4content"class="page4para">Professional aspect </h6>
+          <h6 id="page4content"class="page4para">Personalize document for your client, friend or financial institution</h6>
           <div class="row">
             <div class="col-4 col-sm-6 col-md-4"></div>
             <div class="col-8 col-sm-6 col-md-8"> <button class=" start border-0 ms-5 ps-3 pe-3 pt-1 pb-1 text-white"
@@ -224,7 +228,7 @@
   <!-- Start of page 4 -->
 
   <!--page 4 with table-->
-  <div class="container mt-5 ms-auto me-auto">
+  <div id="table" class="container mt-5 ms-auto me-auto">
     <table class="table bdr ms-auto me-auto">
       <thead>
         <tr>
@@ -248,28 +252,28 @@
             Click here to view a sample
           </td>
 
-          <td class="shadow bottom"><img class="ms-2 ps-5 mt-3" src="Assets/Images/tick.svg"></td>
-          <td class="shadow bottom"><img class="ms-2 ps-5 mt-3" src="ASSETS/IMAGES/tick.svg"></td>
+          <td class="shadow bottom"><img class="ms-2 ps-5 mt-3" alt="tick" src="Assets/Images/tick.svg"></td>
+          <td class="shadow bottom"><img class="ms-2 ps-5 mt-3" alt="tick" src="ASSETS/IMAGES/tick.svg"></td>
         </tr>
         <tr>
           <td id="tablecontent">Data
             Flexible mortgage (frequency, amortization, interest rate)</td>
 
-          <td class="shadow bottom"><img class="ms-2 ps-5 mt-3" src="ASSETS/IMAGES/tick.svg"></td>
-          <td class="shadow bottom"><img class="ms-2 ps-5 mt-3" src="ASSETS/IMAGES/tick.svg"></td>
+          <td class="shadow bottom"><img class="ms-2 ps-5 mt-3" alt="tick" src="ASSETS/IMAGES/tick.svg"></td>
+          <td class="shadow bottom"><img class="ms-2 ps-5 mt-3" alt="tick" src="ASSETS/IMAGES/tick.svg"></td>
         </tr>
         <tr>
           <td id="tablecontent">Unlimited number of mortgages to finance a property (balance of sale, 2nd mortgage,
             collateral)
             all this, under different conditions (interest rate, payment frequency, etc.)</td>
 
-          <td class="shadow bottom"><img class="ms-2 ps-5 mt-3" src="ASSETS/IMAGES/tick.svg"></td>
+          <td class="shadow bottom"><img class="ms-2 ps-5 mt-3" alt="tick" src="ASSETS/IMAGES/tick.svg"></td>
           <td></td>
         </tr>
         <tr>
           <td id="tablecontent">Unlimited number of income sources</td>
 
-          <td class="shadow bottom"><img class="ms-2 ps-5 mt-3" src="ASSETS/IMAGES/tick.svg"></td>
+          <td class="shadow bottom"><img class="ms-2 ps-5 mt-3" alt="tick" src="ASSETS/IMAGES/tick.svg"></td>
           <td></td>
         </tr>
         <tr>
@@ -280,8 +284,8 @@
             Possibility to increase the rent for every lease.
           </td>
 
-          <td class="shadow bottom"><img class="ms-2 ps-5 mt-3" src="ASSETS/IMAGES/tick.svg"></td>
-          <td class="shadow bottom"><img class="ms-2 ps-5 mt-3" src="ASSETS/IMAGES/tick.svg"></td>
+          <td class="shadow bottom"><img class="ms-2 ps-5 mt-3" alt="tick" src="ASSETS/IMAGES/tick.svg"></td>
+          <td class="shadow bottom"><img class="ms-2 ps-5 mt-3" alt="tick" src="ASSETS/IMAGES/tick.svg"></td>
         </tr>
         <tr>
           <td id="tablecontent">Support and subscription
@@ -289,12 +293,13 @@
             No contract! No activation fees! No penalties! You can stop using iAnalyzeREI whenever you decide!
           </td>
 
-          <td class="shadow bottom"><img class="ms-2 ps-5 mt-3" src="ASSETS/IMAGES/tick.svg"></td>
-          <td class="shadow bottom"><img class="ms-2 ps-5 mt-3" src="ASSETS/IMAGES/tick.svg"></td>
+          <td class="shadow bottom"><img class="ms-2 ps-5 mt-3" alt="tick" src="ASSETS/IMAGES/tick.svg"></td>
+          <td class="shadow bottom"><img class="ms-2 ps-5 mt-3" alt="tick" src="ASSETS/IMAGES/tick.svg"></td>
         </tr>
         <tr>
-          <td id="price" class="shadow bottom">plan
-            prices <h6 id="lastrow" class="text-end">Monthly<br>Annual contract</h6>
+          <td id="price" class="shadow bottom ">plan
+            prices <h6 id="lastrow" class="text-end">Monthly</h6>
+            <h6 id="lastrow" class="text-end">Annual contract</h6>
           </td>
 
 
@@ -309,13 +314,13 @@
   </div>
   <br>
   <!-- END OF TABLE page-4 -->
-  
+
   <!-- page 5 -->
-  
+
   <div class="">
     <div class="container- ">
       <div class="row justify-content-lg-center">
-        <div class=" col-12 mt-3 text-center  ">
+        <div id="learnmore" class=" col-12 mt-3 text-center  ">
           <p class="p-5 mt-4 bg-img-text bg-img">Want to learn more about the software ? Click here !</p>
         </div>
       </div>
@@ -327,45 +332,46 @@
         <div class="col-md-4">
           <div class="--card">
             <div class="--card-body">
-              <img class="img-resposive img-fluid" src="Assets/Images/page5card.svg"id="botcard123">
+              <img class="img-resposive img-fluid" alt="1st card image" src="Assets/Images/page5card.svg" id="botcard123">
             </div>
             <div class="col-md-9">
               <div class="--card " id="innercard">
-                  <img class="cardbg" id="cardimg" src="Assets/Images/c3.png">
-                  <div class="--card-text ms-1" id="innercardtext">
-                    <p  id="innerpara" class="pt-3">To make informed decision when buying purchasing an income property!</p>
+                <img class="cardbg" id="cardimg" alt="icon" src="Assets/Images/c3.png">
+                <div class="--card-text ms-1" id="innercardtext">
+                  <p id="innerpara" class="pt-3">To make informed decision when buying purchasing an income property!
+                  </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-            <!--card2-->
-            <div class="col-md-4">
-              <div class="--card">
-                <div class="--card-body">
-                  <img class="img-resposive img-fluid" src="Assets/Images/page5card2.svg" id="botcard123">
-                </div>
-                <div class="col-md-9">
-                  <div class="--card" id="innercard">
-                      <img class="cardbg" src="Assets/Images/c2.png">
-                      <div class="--card-text ms-1" id="innercardtext">
-                        <p  id="innerpara"  class="pt-3">FREE, fast and courteous customer support !</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-                <!--card3-->
+        <!--card2-->
         <div class="col-md-4">
           <div class="--card">
             <div class="--card-body">
-              <img class="img-resposive img-fluid" src="Assets/Images/page5card3.svg" id="botcard123">
+              <img class="img-resposive img-fluid" alt="2nd card image" src="Assets/Images/page5card2.svg" id="botcard123">
             </div>
             <div class="col-md-9">
               <div class="--card" id="innercard">
-                  <img class="img-resposive cardbg img-fluid" src="ASSETS/IMAGES/c1.png">
-                  <div class="--card-text ms-1" id="innercardtext">
-                    <p  id="innerpara"  class="pt-3">Zoom-imm is easy to use and produces professional reports</p>
+                <img class="cardbg" alt="icon" src="Assets/Images/c2.png">
+                <div class="--card-text ms-1" id="innercardtext">
+                  <p id="innerpara" class="pt-3">FREE, fast and courteous customer support !</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--card3-->
+        <div class="col-md-4">
+          <div class="--card">
+            <div class="--card-body">
+              <img class="img-resposive img-fluid" alt="3rd card image" src="Assets/Images/page5card3.svg" id="botcard123">
+            </div>
+            <div class="col-md-9">
+              <div class="--card" id="innercard">
+                <img class=" cardbg" alt="icon" src="ASSETS/IMAGES/c1.png">
+                <div class="--card-text ms-1" id="innercardtext">
+                  <p id="innerpara" class="pt-3">Zoom-imm is easy to use and produces professional reports</p>
                 </div>
               </div>
             </div>
@@ -373,9 +379,21 @@
         </div>
       </div>
     </div>
-    
-       <!-- End of Page 5 -->
-<br><br>
+
+    <!-- End of Page 5 -->
+    <br>
+
+    <div class="container-fluid text-center">
+      <div class="row justify-content-center ">
+
+        <div class="col ">
+          <h1 id="deal" class="h1 text-center">Get the real deal</h1>
+          <button class="start2 text-white   pe-5 ps-5 border-0" type="submit">START NOW</button>
+        </div>
+
+      </div>
+    </div>
+    <br>
     <!-- Footer content   About us -->
 
     <footer class="footer-bg">
@@ -389,7 +407,7 @@
               </p>
             </div>
           </div>
-<!-- footer Get in touch -->
+          <!-- footer Get in touch -->
           <div class="col-6 col-sm-3 col-md-3  mt-4">
             <h6>GET IN TOUCH </h6>
             <div class="font-4 ">
@@ -407,7 +425,7 @@
 
             </div>
           </div>
-<!-- footer quick links -->
+          <!-- footer quick links -->
           <div class="col-6 col-sm-3 col-md-3   mt-4">
             <h6>QUICK LINKS </h6>
             <div class="row">
@@ -427,39 +445,91 @@
           </div>
           <!-- footer form  -->
           <div class="col-6 col-sm-3 col-md-2  mt-4">
-            <div class="input-group flex-nowrap mb-2">
-              <span class="input-group-text icon" id="addon-wrapping"><i class="fa-solid fa-user" id="fav-2"></i></span>
-              <input type="text" class="form-control" placeholder="Username">
-            </div>
-            <div class="input-group flex-nowrap mb-2">
-              <span class="input-group-text icon" id="addon-wrapping"><i class="fa-regular fa-envelope"
-                  id="fav-2"></i></span>
-              <input type="email" class="form-control" placeholder="Email">
-            </div>
-            <div class="input-group flex-nowrap mb-2">
-              <span class="input-group-text icon" id="addon-wrapping"><i class="fa-sharp fa-solid fa-square-phone"
-                  id="fav-2"></i></span>
-              <input type="text" class="form-control" placeholder="Phone">
-            </div>
-            <div class="input-group flex-nowrap mb-2">
-              <span class="input-group-text icon" id="addon-wrapping"><i class="fa-solid fa-comment"
-                  id="fav-2"></i></span>
-              <input type="text" class="form-control" placeholder="Comments">
-            </div>
-            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-              <button class="rounded-1 but-footer mb-3  ps-3 pe-3" type="button">SUBMIT</button>
-            </div>
+            <form action="" method="post" id="login">
+              <div class="input-group flex-nowrap mb-2">
+                <span class="input-group-text icon" id="addon-wrapping"><i class="fa-solid fa-user"
+                    id="fav-2"></i></span>
+                <input type="text" class="form-control" name="username" placeholder="Username">
+              </div>
+              <div class="input-group flex-nowrap mb-2">
+                <span class="input-group-text icon" id="addon-wrapping"><i class="fa-regular fa-envelope"
+                    id="fav-2"></i></span>
+                <input type="email" name="email" class="form-control" placeholder="Email">
+              </div>
+              <div class="input-group flex-nowrap mb-2">
+                <span class="input-group-text icon" id="addon-wrapping"><i class="fa-sharp fa-solid fa-square-phone"
+                    id="fav-2"></i></span>
+                <input type="text" name="number" class="form-control" placeholder="Phone">
+              </div>
+              <div class="input-group flex-nowrap mb-2">
+                <span class="input-group-text icon" id="addon-wrapping"><i class="fa-solid fa-comment"
+                    id="fav-2"></i></span>
+                <input name="comments" type="text" required class="form-control" placeholder="Comments">
+              </div>
+              <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                <button class="rounded-1 but-footer mb-3  ps-3 pe-3" onsubmit="" type="button">SUBMIT</button>
+              </div>
           </div>
         </div>
+        </form>
       </div>
       <!-- footer copyright -->
       <div class="text-center text-white text-start p-3  Copyright">
         <a class="Copyright text-white" href=""> © Copyright 2021 - MAGEX TECHNOLOGIES INC. All Rights Reserved.</a>
-        <a class="text-white text-end  Copyright " href="https://mdbootstrap.com/"> T & CS </a>
+        <a class="text-white text-end   Copyright " href=""> T & CS </a>
       </div>
     </footer>
     <!-- End of footer -->
+    <script>
+      $(document).ready(function () {
+    $('#login').validate({
+        rules: {
+            username: {
+                required: true,
+                pattern: /^[a-zA-Z0-9]{5,15}$/
+            },
+            email: {
+                required: true,
+                pattern: /^[a-zA-Z0-9]+@[a-zA-z0-9]+\.[a-zA-Z0-9]{2,3}$/
+            },
 
+            number: {
+                required: true,
+                pattern: /^[0-9]{10}$/
+            },
+            comments: {
+                required: true,
+                pattern: /^[A-za-z0-9]{5,100}$/
+            }
+        },
+        messages: {
+            username: {
+                required: "Enter a valid username",
+                pattern: "The user name should contain atleast 5 charachters",
+            },
+            email: {
+                required: "Enter a valid mail",
+                pattern: "The mail should end with @g2tsolutions.com",
+            },
+            number: {
+                required: "Enter 11  numbers",
+                pattern: "Maximum length 11",
+            },
+            comments: {
+                required: "Enter some text",
+                pattern: "should contain atleast 5 charachters",
+            }
+
+        }
+    })
+})
+$(function() {
+    $(document).scroll(function() {
+        var $nav = $(".navbar-fixed-top");
+        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+    });
+});
+    </script>
 </body>
 
 </html>

@@ -2,42 +2,48 @@
 
  /* Nav bar items HOME,PLANS,..... */
  body {
-   margin: 0% !important;
+  margin: 0% !important;
    font-family: 'Quicksand', 'sans-serif';
    overflow-x: hidden;
+}
+#toggle-top {
+ font-size: smaller;
 
- }
+}
 
  #navlink:hover {
    background-color: #aab33c;
    font-weight: 700;
  }
-
+ .navbar-fixed-top.scrolled {
+  background-color: #464646 !important;
+  transition: background-color 200ms linear;
+}
  @font-face {
    font-family: 'Quicksand';
-   src: url(/Assets/Fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
+   src: url(../Fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
  }
 
  @font-face {
    font-family: 'Ribbon';
-   src: url(/Assets/Fonts/Ribbon/Ribbon131BT-Regular.otf);
+   src: url(../Fonts/Ribbon/Ribbon131BT-Regular.otf);
  }
 
  .deal {
    background-color: #aab33c;
-   font-weight: 700;
+   
 
  }
 
  .real {
-   margin-inline-start: 140px;
+   margin-inline-start: 250px;
    font-family: 'Quicksand', 'sans-serif';
    color: #ffffff;
    font-size: 2vw;
  }
 
  .best {
-   margin-inline-start: 140px;
+   margin-inline-start: 250px;
    font-family: 'Ribbon', 'sans-serif';
    color: #aab33c;
    font-size: 2dvw;
@@ -46,7 +52,7 @@
  }
 
  .start {
-   margin-inline-start: 140px;
+   margin-inline-start: 250px;
    background-color: #aab33c;
    font-family: 'Quicksand', 'sans-serif';
    font-size: 18px;
@@ -64,14 +70,15 @@
 
  }
 
- #c4 {
-   width: 260px;
-   height: 250px;
-   border-radius: 10px;
-   background-color: #f1f4db;
- }
+ 
 
  /* cards css of page1 */
+ #c4 {
+  width: 260px;
+  height: 250px;
+  border-radius: 10px;
+  background-color: #f1f4db;
+}
  #c4:hover {
    transform: scale(1.1);
  }
@@ -118,8 +125,8 @@
 
  #zoom {
    color: #404142;
-   font-weight: bolder;
    font-size: xx-large;
+   font-weight: 600;
    font-family: "Quicksand";
  }
 
@@ -128,7 +135,12 @@
    font-weight: 700;
    font-family: "Quicksand";
  }
-
+ .rect{
+ width: 97px;
+ height: 97px;
+ 
+ border: 8px solid #aab33c;
+ }
  /* End of page 3 css */
 
  /* Start of page4 css (Table content) */
@@ -264,7 +276,9 @@
  }
 
  .bg-img {
-   background-image: url(/Assets/Images/Rectangle\ 32\ copy\ \(1\).svg);
+   background-image: url(../Images/Rectangle\ 32\ copy\ \(1\).svg);
+   background-size: cover;
+   
  }
 
  .bg-img-text {
@@ -338,12 +352,18 @@
 }
 /* End of page 5 css */
 
-
+/* Page 6 css */
+.start2{
+  background-color: #aab33c;
+  font-family: 'Quicksand', 'sans-serif';
+  font-size: 18px;
+}
+/* End of page6 css */
 
  /*css for footer */
  .footer-bg {
-   background-image: url(/Assets/Images/footer.svg);
-   background-size: contain;
+   background-image: url(../Images/footer.svg);
+   background-size: cover;
  }
 
  .font-2 {
@@ -418,3 +438,88 @@
  }
 
  /* End of footer Css */
+
+
+ /* media query goes here */
+ @media screen and (min-width:580px) and (max-width:765px) {
+  .real{
+    display: none;
+  }
+  .best {
+    margin-inline-start: 116px;
+    font-family: 'Ribbon', 'sans-serif';
+    color: #aab33c;
+    
+}
+.start {
+  margin-inline-start: 114px;
+  background-color: #aab33c;
+  font-family: 'Quicksand', 'sans-serif';
+  font-size: 18px;
+}
+
+ }
+ @media screen and (min-width:101px) and (max-width:576px) {
+  #best{
+    position: absolute;
+    margin-top: 14%;
+    margin-left: -190px;
+    font-size: 28px;
+}
+.real{
+  display: none;
+}
+.start
+ {
+  background-color: #aab33c;
+  font-family: 'Quicksand', 'sans-serif';
+  font-size: 8px;
+  margin-top: -50%;
+}
+ nav{
+  background-color:rgb(48, 48, 48);
+ } 
+ 
+
+ }
+ 
+ @media screen and (min-width:101px) and (max-width:761px) {
+  #iphone{
+    display: none;
+   } 
+  }
+   @media screen and (min-width:759px) and (max-width:1081px) {
+   .page4para{
+    display: none;
+   }
+}
+@media screen and (min-width:760px) and (max-width:1196px) {
+ .cardbg{
+  display: none;
+ }
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+  .real {
+    margin-inline-start: 123px;
+    font-family: 'Quicksand', 'sans-serif';
+    color: #ffffff;
+    font-size: 2vw;
+  }
+  .best {
+    margin-inline-start: 123px;
+    font-family: 'Ribbon', 'sans-serif';
+    color: #aab33c;
+    font-size: 2dvw;
+}
+.start {
+  margin-inline-start: 123px;
+  background-color: #aab33c;
+  font-family: 'Quicksand', 'sans-serif';
+  font-size: 18px;
+}
+
+.innerpara{
+  display: none;
+}
+}
