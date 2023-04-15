@@ -153,8 +153,9 @@
    background-color: #a9b33b;
  }
 
- tr:nth-child(odd) {
+ tr:nth-child(odd):hover {
    background-color: #ffffff;
+   transform: scale(1);
  }
 
  tr:nth-child(even) {
@@ -200,28 +201,32 @@
    white-space: pre-line;
  }
 
- td:last-child {
+ td:last-child:hover {
+   box-shadow: 0 0.2rem 0.2em rgba(0, 0, 0, 0.4);
+   transform: scale(1.1);
+ }
+
+ th:last-child:hover {
    box-shadow: 0 0.2rem 0.2em rgba(0, 0, 0, 0.4);
  }
 
- th:last-child {
+ th:nth-child(2):hover {
    box-shadow: 0 0.2rem 0.2em rgba(0, 0, 0, 0.4);
  }
 
- th:nth-child(2) {
+ td:nth-child(2):hover {
    box-shadow: 0 0.2rem 0.2em rgba(0, 0, 0, 0.4);
+   transform: scale(1.1);
  }
 
- td:nth-child(2) {
+ th:nth-child(1):hover {
    box-shadow: 0 0.2rem 0.2em rgba(0, 0, 0, 0.4);
+   
  }
 
- th:nth-child(1) {
+ td:nth-child(1):hover {
    box-shadow: 0 0.2rem 0.2em rgba(0, 0, 0, 0.4);
- }
-
- td:nth-child(1) {
-   box-shadow: 0 0.2rem 0.2em rgba(0, 0, 0, 0.4);
+   
  }
 
  #price {
